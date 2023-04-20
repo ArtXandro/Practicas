@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtXanro Blogs</title>
+    <style>
+        table, th, td {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!--Aqui podemos ver las etiquetas para una tabla-->
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Precio</th>
+                <th>Producto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola Beats</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz</td>
+                <td>20.00</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                <td>29.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>$49.00</td>
+        </tfoot>
+    </table>
+    <!--UL es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <hr><!--OL es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">Sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">Sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">Sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="post">
+        <label for="Nombre">Nombre </label>
+        <input value="chanchito" type="text" id="Nombre"  name="Nombre" placeholder="Nombre"/>
+   
+        <br>
+        <form>
+        <label for="Apellido">Apellido </label>
+        <input value="Feliz" type="text" id="Apellido"  name="Apellido" placeholder="Apellido"/>
+    
+        <br>
+        <label for="Comentarios">Comentarios</label>
+        <textarea cols="50" rows="10" id="Comentarios" placeholder="Ingrese comentario..." name="comentario">Este es un valor por defecto</textarea>
+        <br>
+        <button type="button">Tipo Boton</button>
+        <button type="reset">Tipo Reset</button>
+        <button type="submit">Tipo Submit</button>
+    </form>
+    <h1>Mi Primer heding</h1>
+    <h2>Mi Segundo heding</h2>
+    <h3>Mi Terser heding</h3>
+    <h4>Mi Cuarto heding</h4>
+    <h5>Mi Quinto heding</h5>
+    <h6>Mi Sexto heding</h6>
+    <p>Mi primer blog en la web</p>
+    <p>Espero que puedan disfrutarlo</p>
+    <hr>
+    <h2>Aqui tenemos otra entrada</h2>
+    <p>
+        Aqui podemos <span style="color: aqua;"> mas 
+        texto que se</span> mostrarar <br> 
+        en la web y que aparte vamos a seleccionar un 
+        texto espesifico.
+    </p>
+    <!--Esto es un comentario en el codigo-->
+    <a target="_blank" href="https://www.google.com.mx">Ir a google</a>
+    <img src="img/Girl.jpg" width="400" /> 
+    
+</body>
+</html>
